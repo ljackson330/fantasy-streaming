@@ -1,0 +1,467 @@
+Pos
+Forwards/Defensemen
+Opp
+Fan Pts
+F
+Nick Suzuki
+Nick SuzukiPlayer Note MTL - F
+–
+F
+Clayton Keller
+Clayton KellerPlayer Note UTA - F
+–
+F
+Sebastian Aho
+Sebastian AhoPlayer Note CAR - F
+–
+F
+Brandon Hagel
+Brandon HagelPlayer Note TB - F
+–
+F
+John Tavares
+John TavaresPlayer Note TOR - F
+–
+F
+Jack Eichel
+Jack EichelPlayer Note VGK - F
+–
+D
+Rasmus Andersson
+Rasmus AnderssonPlayer Note VGK - D
+–
+D
+Cale Makar
+Cale MakarPlayer Note COL - D
+–
+D
+Noah Dobson
+Noah DobsonPlayer Note MTL - D
+–
+D
+Charlie McAvoy
+Charlie McAvoyNAPlayer Note BOS - D
+–
+BN
+Rasmus Dahlin
+Rasmus DahlinPlayer Note BUF - D
+–
+BN
+Alex Tuch
+Alex TuchPlayer Note WSH - F
+–
+BN
+Nico Hischier
+Nico HischierPlayer Note NJ - F
+–
+IR
+Seth Jarvis
+Seth JarvisIR-NRPlayer Note CAR - F
+–
+IR
+Mattias Samuelsson
+Mattias SamuelssonIRPlayer Note BUF - D
+–
+Starting Lineup Totals
+Brad Marchand's Tongue's Goaltenders roster for 2026-09-30.
+Pos
+Goaltenders
+G
+Karel Vejmelka
+Karel VejmelkaPlayer Note UTA - G
+–
+G
+Jeremy Swayman
+Jeremy SwaymanPlayer Note BOS - G
+–
+BN
+Jet Greaves
+Jet GreavesPlayer Note CBJ - G
+–
+Starting Lineup Totals
+
+Pos
+Forwards/Defensemen
+Opp
+Fan Pts
+F
+David Pastrnak
+David PastrnakPlayer Note BOS - F
+–
+F
+Tage Thompson
+Tage ThompsonPlayer Note BUF - F
+–
+F
+Alex DeBrincat
+Alex DeBrincatPlayer Note DET - F
+–
+F
+Filip Forsberg
+Filip ForsbergPlayer Note NSH - F
+–
+F
+Artemi Panarin
+Artemi PanarinPlayer Note LA - F
+–
+F
+Porter Martone
+Porter MartonePlayer Note PHI - F
+–
+D
+Evan Bouchard
+Evan BouchardPlayer Note EDM - D
+–
+D
+Moritz Seider
+Moritz SeiderPlayer Note DET - D
+–
+D
+Jakob Chychrun
+Jakob ChychrunPlayer Note WSH - D
+–
+D
+Josh Morrissey
+Josh MorrisseyPlayer Note WPG - D
+–
+BN
+Leon Draisaitl
+Leon DraisaitlPlayer Note EDM - F
+–
+BN
+Dylan Guenther
+Dylan GuentherPlayer Note UTA - F
+–
+BN
+Mikhail Sergachev
+Mikhail SergachevPlayer Note UTA - D
+–
+BN
+Jacob Trouba
+Jacob TroubaPlayer Note SJ - D
+–
+Starting Lineup Totals
+Dyson's Best Team's Goaltenders roster for 2026-09-30.
+Pos
+Goaltenders
+G
+Igor Shesterkin
+Igor ShesterkinPlayer Note NYR - G
+–
+G
+Juuse Saros
+Juuse SarosPlayer Note NSH - G
+–
+Starting Lineup Totals
+
+Pos
+Forwards/Defensemen
+Opp
+Fan Pts
+F
+Aleksander Barkov
+Aleksander BarkovPlayer Note FLA - F
+–
+F
+William Nylander
+William NylanderPlayer Note TOR - F
+–
+F
+Zach Hyman
+Zach HymanPlayer Note EDM - F
+–
+F
+Sam Reinhart
+Sam ReinhartPlayer Note FLA - F
+–
+F
+Pavel Dorofeyev
+Pavel DorofeyevPlayer Note NYR - F
+–
+F
+Nathan MacKinnon
+Nathan MacKinnonPlayer Note COL - F
+–
+D
+Quinn Hughes
+Quinn HughesPlayer Note MIN - D
+–
+D
+Lane Hutson
+Lane HutsonPlayer Note MTL - D
+–
+D
+Shayne Gostisbehere
+Shayne GostisbeherePlayer Note CAR - D
+–
+D
+Darnell Nurse
+Darnell NursePlayer Note SJ - D
+–
+BN
+Cole Caufield
+Cole CaufieldPlayer Note MTL - F
+–
+BN
+Tim Stützle
+Tim StützlePlayer Note OTT - F
+–
+BN
+Will Smith
+Will SmithPlayer Note SJ - F
+–
+BN
+Nick Schmaltz
+Nick SchmaltzPlayer Note UTA - F
+–
+IR
+Mathew Barzal
+Mathew BarzalIR-NRPlayer Note NYI - F
+–
+Starting Lineup Totals
+Snatcher Demgoat's Knees's Goaltenders roster for 2026-09-30.
+Pos
+Goaltenders
+G
+Scott Wedgewood
+Scott WedgewoodPlayer Note COL - G
+–
+G
+Jakub Dobes
+Jakub DobesPlayer Note MTL - G
+–
+IR
+Frederik Andersen
+Frederik AndersenIR-NRPlayer Note EDM - G
+–
+Starting Lineup Totals
+
+Pos
+Forwards/Defensemen
+Opp
+Fan Pts
+F
+Nikita Kucherov
+Nikita KucherovPlayer Note TB - F
+–
+F
+Jason Robertson
+Jason RobertsonPlayer Note DAL - F
+–
+F
+Wyatt Johnston
+Wyatt JohnstonPlayer Note DAL - F
+–
+F
+Mark Scheifele
+Mark ScheifelePlayer Note WPG - F
+–
+F
+Brady Tkachuk
+Brady TkachukPlayer Note FLA - F
+–
+F
+Adrian Kempe
+Adrian KempePlayer Note LA - F
+–
+D
+Jackson LaCombe
+Jackson LaCombePlayer Note ANA - D
+–
+D
+Roman Josi
+Roman JosiPlayer Note NSH - D
+–
+D
+John Carlson
+John CarlsonPlayer Note TB - D
+–
+D
+Jake Sanderson
+Jake SandersonDTDPlayer Note OTT - D
+–
+BN
+Kyle Connor
+Kyle ConnorPlayer Note WPG - F
+–
+BN
+Shea Theodore
+Shea TheodorePlayer Note VGK - D
+–
+BN
+Matthew Tkachuk
+Matthew TkachukPlayer Note FLA - F
+–
+IR
+Connor Bedard
+Connor BedardIR-NRPlayer Note CHI - F
+–
+Starting Lineup Totals
+Unc Empire's Goaltenders roster for 2026-09-30.
+Pos
+Goaltenders
+G
+Andrei Vasilevskiy
+Andrei VasilevskiyPlayer Note TB - G
+–
+G
+Jake Oettinger
+Jake OettingerPlayer Note DAL - G
+–
+BN
+Connor Hellebuyck
+Connor HellebuyckNAPlayer Note WPG - G
+–
+Starting Lineup Totals
+
+Pos
+Forwards/Defensemen
+Opp
+Fan Pts
+F
+Macklin Celebrini
+Macklin CelebriniPlayer Note SJ - F
+–
+F
+Kirill Kaprizov
+Kirill KaprizovPlayer Note MIN - F
+–
+F
+Jack Hughes
+Jack HughesPlayer Note NJ - F
+–
+F
+Martin Necas
+Martin NecasPlayer Note COL - F
+–
+F
+Mikko Rantanen
+Mikko RantanenPlayer Note DAL - F
+–
+F
+Kirill Marchenko
+Kirill MarchenkoPlayer Note TOR - F
+–
+D
+Darren Raddysh
+Darren RaddyshPlayer Note TOR - D
+–
+D
+Erik Karlsson
+Erik KarlssonPlayer Note PIT - D
+–
+D
+Cole Hutson
+Cole HutsonPlayer Note WSH - D
+–
+D
+Victor Hedman
+Victor HedmanPlayer Note TB - D
+–
+BN
+Cutter Gauthier
+Cutter GauthierPlayer Note ANA - F
+–
+BN
+Leo Carlsson
+Leo CarlssonPlayer Note ANA - F
+–
+BN
+Andrei Svechnikov
+Andrei SvechnikovPlayer Note CAR - F
+–
+IR
+Brock Faber
+Brock FaberIRPlayer Note MIN - D
+–
+Starting Lineup Totals
+Real Hood Necas's Goaltenders roster for 2026-09-30.
+Pos
+Goaltenders
+G
+Logan Thompson
+Logan ThompsonPlayer Note WSH - G
+–
+G
+Jesper Wallstedt
+Jesper WallstedtPlayer Note MIN - G
+–
+BN
+Brandon Bussi
+Brandon BussiPlayer Note CAR - G
+–
+Starting Lineup Totals
+
+Pos
+Forwards/Defensemen
+Opp
+Fan Pts
+F
+Connor McDavid
+Connor McDavidPlayer Note EDM - F
+–
+F
+Auston Matthews
+Auston MatthewsPlayer Note TOR - F
+–
+F
+Juraj Slafkovský
+Juraj SlafkovskýPlayer Note MTL - F
+–
+F
+Mika Zibanejad
+Mika ZibanejadPlayer Note NYR - F
+–
+F
+Gavin McKenna
+Gavin McKennaPlayer Note TOR - F
+–
+F
+Sidney Crosby
+Sidney CrosbyPlayer Note PIT - F
+–
+D
+Zach Werenski
+Zach WerenskiPlayer Note CBJ - D
+–
+D
+Matthew Schaefer
+Matthew SchaeferPlayer Note NYI - D
+–
+D
+Adam Fox
+Adam FoxPlayer Note NYR - D
+–
+D
+Miro Heiskanen
+Miro HeiskanenPlayer Note DAL - D
+–
+BN
+Mitch Marner
+Mitch MarnerPlayer Note VGK - F
+–
+BN
+Jake Guentzel
+Jake GuentzelPlayer Note TB - F
+–
+BN
+Matt Boldy
+Matt BoldyPlayer Note MIN - F
+–
+BN
+MacKenzie Weegar
+MacKenzie WeegarPlayer Note UTA - D
+–
+Starting Lineup Totals
+McChud's's Goaltenders roster for 2026-09-30.
+Pos
+Goaltenders
+G
+Ilya Sorokin
+Ilya SorokinPlayer Note NYI - G
+–
+G
+Jacob Markstrom
+Jacob MarkstromPlayer Note FLA - G
+–
+Starting Lineup Totals

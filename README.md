@@ -16,6 +16,15 @@ A self-updating dashboard for a Yahoo NHL points league. Twice a day a GitHub Ac
 
 Your team is picked automatically (the one owned by the Yahoo account you authorized).
 
+## If the Yahoo API isn't available: pasted rosters
+
+Without working Yahoo secrets, or if Yahoo refuses the app, the job falls back to `rosters/latest.txt`. To refresh it:
+
+1. In Yahoo, open each team's roster page, select all (Ctrl/Cmd+A), copy, and paste it into the file one team after another. The order and the extra page text don't matter.
+2. On GitHub, open `rosters/latest.txt`, click the pencil, replace everything with your paste, and commit. That triggers a rebuild.
+
+Injury and suspension statuses come through from the pasted pages. Waiver flags, transactions and your adds-used count need the Yahoo API, so set adds used on the dashboard yourself. The dashboard warns when pasted rosters are more than 2 days old. Once Yahoo access works, the API is used automatically and this file is ignored.
+
 ## Updating projections
 
 Projections come from the Data Driven Hockey rankings exports, which sit behind a Patreon login, so they're uploaded by hand. When you download new ones, open the `projections/` folder on GitHub → *Add file → Upload files*, and drop in both CSVs, keeping names like `skater-rankings_2026-10-14.csv`. The upload triggers a rebuild, and the newest-dated pair is always used. The dashboard warns when projections are more than 10 days old.

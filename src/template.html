@@ -594,6 +594,10 @@ function renderHead() {
     parts.push(`projections from ${dayLab(m.projections.date)}` + (age > 10 ? ` <span class="stale">(${age} days old; upload fresh CSVs)</span>` : ''));
   }
   if (m.offline) parts.push('sample data, not live');
+  if (m.rosterSource === 'paste') {
+    const age = m.rostersAsOf ? Math.round((fromISO(TODAY) - fromISO(m.rostersAsOf)) / 864e5) : null;
+    parts.push(`rosters pasted ${m.rostersAsOf ? dayLab(m.rostersAsOf) : ''}` + (age != null && age > 2 ? ` <span class="stale">(${age} days old; paste fresh rosters)</span>` : '') + ' · waiver flags and transactions need the Yahoo API');
+  }
   if (DATA.unmatched && DATA.unmatched.length) parts.push(`${DATA.unmatched.length} rostered player${DATA.unmatched.length > 1 ? 's' : ''} missing from projections: ${DATA.unmatched.map(u => u.name).join(', ')}`);
   document.getElementById('fresh').innerHTML = parts.join(' · ');
   document.getElementById('planSub').textContent = `Up to ${ADDS} adds a week. Each move swaps a free agent into one of your stream spots, timed to fill open lineup slots on the days left. Points are expected values: projected points per game times each player's share of his team's games. Players on waivers or listed out are skipped.`;

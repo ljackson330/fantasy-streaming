@@ -6,7 +6,7 @@ on:
     - cron: "0 22 * * *"   # 4:00 pm Mountain, before most puck drops
   workflow_dispatch: {}
   push:
-    paths: ["projections/**", "src/**", "config.json"]
+    paths: ["projections/**", "rosters/**", "src/**", "config.json"]
 
 permissions:
   contents: write

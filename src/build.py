@@ -14,6 +14,7 @@ from datetime import date, datetime, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
 import nhl  # noqa: E402
+import paste_rosters  # noqa: E402
 import projections  # noqa: E402
 import yahoo  # noqa: E402
 
@@ -57,11 +58,25 @@ def main():
     games = nhl.load_games(args.schedule_file) if args.schedule_file else nhl.fetch_games(nhl.season_id(date.fromisoformat(today)))
     sched, scheck = nhl.schedule(games)
 
+    paste_path = os.path.join(ROOT, "rosters", "latest.txt")
+    source = "yahoo"
     if args.offline:
-        yd = json.load(open(args.offline))
+        yd, source = json.load(open(args.offline)), "sample"
     else:
-        y = yahoo.Yahoo()
-        yd = yahoo.fetch_league(y, cfg["league_id"], today)
+        yd, err = None, None
+        if os.environ.get("YAHOO_REFRESH_TOKEN", "").strip():
+            try:
+                yd = yahoo.fetch_league(yahoo.Yahoo(), cfg["league_id"], today)
+            except Exception as e:  # noqa: BLE001
+                err = e
+                print(f"Yahoo API unavailable, using pasted rosters instead:\n{e}")
+        if yd is None:
+            if not os.path.exists(paste_path):
+                raise SystemExit(f"No Yahoo access and no {paste_path}. Paste your league's roster pages there.") from err
+            yd = paste_rosters.parse(open(paste_path, encoding="utf-8").read(),
+                                     max_adds=cfg.get("max_weekly_adds", 4))
+            source = "paste"
+            print(f"Pasted rosters: {len(yd['teams'])} teams, {len(yd['rosters'])} players, as of {yd['league'].get('asof')}")
     adds = yahoo.adds_this_week(yd)
 
     # ---- match Yahoo players to projections ----
@@ -157,7 +172,8 @@ def main():
         "addsUsed": adds, "weekStart": yd["league"].get("week_start"), "weekEnd": yd["league"].get("week_end"),
         "transactions": tx, "changes": changes, "unmatched": unmatched,
         "meta": {"generated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "projections": pmeta,
-                 "schedule": scheck, "league": yd["league"].get("name", ""), "offline": bool(args.offline)},
+                 "schedule": scheck, "league": yd["league"].get("name", ""), "offline": bool(args.offline),
+                 "rosterSource": source, "rostersAsOf": yd["league"].get("asof")},
     }
 
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
