@@ -44,7 +44,6 @@ jobs:
         run: |
           echo "::notice title=GitHub Pages deploy skipped::The repository variable PUBLISH_PAGES is '${{ vars.PUBLISH_PAGES }}' (empty means not set). To publish: Settings > Secrets and variables > Actions > Variables tab (not Secrets) > New repository variable, name PUBLISH_PAGES, value true. Also set Settings > Pages > Source to 'GitHub Actions'."
       - name: Package site for GitHub Pages
-        if: vars.PUBLISH_PAGES == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
