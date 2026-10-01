@@ -1,0 +1,1532 @@
+{
+ "league": {
+  "key": "sample",
+  "name": "Sample league (pasted rosters)",
+  "slots": {
+   "F": 6,
+   "D": 4,
+   "G": 2,
+   "BN": 4,
+   "IR": 2
+  },
+  "max_weekly_adds": 4,
+  "week_start": "2026-09-28",
+  "week_end": "2026-10-04"
+ },
+ "teams": [
+  {
+   "key": "t.1",
+   "name": "Brad Marchand's Tongue",
+   "mine": true,
+   "manager": ""
+  },
+  {
+   "key": "t.2",
+   "name": "Dyson's Best Team",
+   "mine": false,
+   "manager": ""
+  },
+  {
+   "key": "t.3",
+   "name": "Snatcher Demgoat's Knees",
+   "mine": false,
+   "manager": ""
+  },
+  {
+   "key": "t.4",
+   "name": "Unc Empire",
+   "mine": false,
+   "manager": ""
+  },
+  {
+   "key": "t.5",
+   "name": "Real Hood Necas",
+   "mine": false,
+   "manager": ""
+  },
+  {
+   "key": "t.6",
+   "name": "McChud's",
+   "mine": false,
+   "manager": ""
+  }
+ ],
+ "rosters": [
+  {
+   "name": "Nick Suzuki",
+   "nhl": "MTL",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Clayton Keller",
+   "nhl": "UTA",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Sebastian Aho",
+   "nhl": "CAR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Brandon Hagel",
+   "nhl": "TB",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "John Tavares",
+   "nhl": "TOR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Jack Eichel",
+   "nhl": "VGK",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Rasmus Andersson",
+   "nhl": "VGK",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Cale Makar",
+   "nhl": "COL",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Noah Dobson",
+   "nhl": "MTL",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Charlie McAvoy",
+   "nhl": "BOS",
+   "pos": "D",
+   "selected": "D",
+   "status": "NA",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Rasmus Dahlin",
+   "nhl": "BUF",
+   "pos": "D",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Alex Tuch",
+   "nhl": "WSH",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Nico Hischier",
+   "nhl": "NJ",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Seth Jarvis",
+   "nhl": "CAR",
+   "pos": "F",
+   "selected": "IR",
+   "status": "IR-NR",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Mattias Samuelsson",
+   "nhl": "BUF",
+   "pos": "D",
+   "selected": "IR",
+   "status": "IR",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Karel Vejmelka",
+   "nhl": "UTA",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Jeremy Swayman",
+   "nhl": "BOS",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Jet Greaves",
+   "nhl": "CBJ",
+   "pos": "G",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Brad Marchand's Tongue",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "David Pastrnak",
+   "nhl": "BOS",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Tage Thompson",
+   "nhl": "BUF",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Alex DeBrincat",
+   "nhl": "DET",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Filip Forsberg",
+   "nhl": "NSH",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Artemi Panarin",
+   "nhl": "LA",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Porter Martone",
+   "nhl": "PHI",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Evan Bouchard",
+   "nhl": "EDM",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Moritz Seider",
+   "nhl": "DET",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Jakob Chychrun",
+   "nhl": "WSH",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Josh Morrissey",
+   "nhl": "WPG",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Leon Draisaitl",
+   "nhl": "EDM",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Dylan Guenther",
+   "nhl": "UTA",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Mikhail Sergachev",
+   "nhl": "UTA",
+   "pos": "D",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Jacob Trouba",
+   "nhl": "SJ",
+   "pos": "D",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Igor Shesterkin",
+   "nhl": "NYR",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Juuse Saros",
+   "nhl": "NSH",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Dyson's Best Team",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Aleksander Barkov",
+   "nhl": "FLA",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "William Nylander",
+   "nhl": "TOR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Zach Hyman",
+   "nhl": "EDM",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Sam Reinhart",
+   "nhl": "FLA",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Pavel Dorofeyev",
+   "nhl": "NYR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Nathan MacKinnon",
+   "nhl": "COL",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Quinn Hughes",
+   "nhl": "MIN",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Lane Hutson",
+   "nhl": "MTL",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Shayne Gostisbehere",
+   "nhl": "CAR",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Darnell Nurse",
+   "nhl": "SJ",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Cole Caufield",
+   "nhl": "MTL",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Tim Stützle",
+   "nhl": "OTT",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Will Smith",
+   "nhl": "SJ",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Nick Schmaltz",
+   "nhl": "UTA",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Mathew Barzal",
+   "nhl": "NYI",
+   "pos": "F",
+   "selected": "IR",
+   "status": "IR-NR",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Scott Wedgewood",
+   "nhl": "COL",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Jakub Dobes",
+   "nhl": "MTL",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Frederik Andersen",
+   "nhl": "EDM",
+   "pos": "G",
+   "selected": "IR",
+   "status": "IR-NR",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Snatcher Demgoat's Knees",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Nikita Kucherov",
+   "nhl": "TB",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Jason Robertson",
+   "nhl": "DAL",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Wyatt Johnston",
+   "nhl": "DAL",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Mark Scheifele",
+   "nhl": "WPG",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Brady Tkachuk",
+   "nhl": "FLA",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Adrian Kempe",
+   "nhl": "LA",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Jackson LaCombe",
+   "nhl": "ANA",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Roman Josi",
+   "nhl": "NSH",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "John Carlson",
+   "nhl": "TB",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Jake Sanderson",
+   "nhl": "OTT",
+   "pos": "D",
+   "selected": "D",
+   "status": "DTD",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Kyle Connor",
+   "nhl": "WPG",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Shea Theodore",
+   "nhl": "VGK",
+   "pos": "D",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Matthew Tkachuk",
+   "nhl": "FLA",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Connor Bedard",
+   "nhl": "CHI",
+   "pos": "F",
+   "selected": "IR",
+   "status": "IR-NR",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Andrei Vasilevskiy",
+   "nhl": "TB",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Jake Oettinger",
+   "nhl": "DAL",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Connor Hellebuyck",
+   "nhl": "WPG",
+   "pos": "G",
+   "selected": "BN",
+   "status": "NA",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Unc Empire",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Macklin Celebrini",
+   "nhl": "SJ",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Kirill Kaprizov",
+   "nhl": "MIN",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Jack Hughes",
+   "nhl": "NJ",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Martin Necas",
+   "nhl": "COL",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Mikko Rantanen",
+   "nhl": "DAL",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Kirill Marchenko",
+   "nhl": "TOR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Darren Raddysh",
+   "nhl": "TOR",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Erik Karlsson",
+   "nhl": "PIT",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Cole Hutson",
+   "nhl": "WSH",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Victor Hedman",
+   "nhl": "TB",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Cutter Gauthier",
+   "nhl": "ANA",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Leo Carlsson",
+   "nhl": "ANA",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Andrei Svechnikov",
+   "nhl": "CAR",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Brock Faber",
+   "nhl": "MIN",
+   "pos": "D",
+   "selected": "IR",
+   "status": "IR",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Logan Thompson",
+   "nhl": "WSH",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Jesper Wallstedt",
+   "nhl": "MIN",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Brandon Bussi",
+   "nhl": "CAR",
+   "pos": "G",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "Real Hood Necas",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Connor McDavid",
+   "nhl": "EDM",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Auston Matthews",
+   "nhl": "TOR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Juraj Slafkovský",
+   "nhl": "MTL",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Mika Zibanejad",
+   "nhl": "NYR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Gavin McKenna",
+   "nhl": "TOR",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Sidney Crosby",
+   "nhl": "PIT",
+   "pos": "F",
+   "selected": "F",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Zach Werenski",
+   "nhl": "CBJ",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Matthew Schaefer",
+   "nhl": "NYI",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Adam Fox",
+   "nhl": "NYR",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Miro Heiskanen",
+   "nhl": "DAL",
+   "pos": "D",
+   "selected": "D",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Mitch Marner",
+   "nhl": "VGK",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Jake Guentzel",
+   "nhl": "TB",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "Matt Boldy",
+   "nhl": "MIN",
+   "pos": "F",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "F"
+   ]
+  },
+  {
+   "name": "MacKenzie Weegar",
+   "nhl": "UTA",
+   "pos": "D",
+   "selected": "BN",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "D"
+   ]
+  },
+  {
+   "name": "Ilya Sorokin",
+   "nhl": "NYI",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "G"
+   ]
+  },
+  {
+   "name": "Jacob Markstrom",
+   "nhl": "FLA",
+   "pos": "G",
+   "selected": "G",
+   "status": "",
+   "status_full": "",
+   "injury_note": "",
+   "ownership": "team",
+   "owner": "McChud's",
+   "eligible": [
+    "G"
+   ]
+  }
+ ],
+ "available": [
+  {
+   "name": "Timo Meier",
+   "nhl": "NJ",
+   "pos": "F",
+   "status": "DTD",
+   "injury_note": "Upper body",
+   "ownership": "freeagents"
+  },
+  {
+   "name": "Bryan Rust",
+   "nhl": "PIT",
+   "pos": "F",
+   "status": "",
+   "injury_note": "",
+   "ownership": "waivers"
+  }
+ ],
+ "transactions": [
+  {
+   "type": "add/drop",
+   "status": "successful",
+   "time": "2026-09-30T18:05:00+00:00",
+   "ts": 1790791500,
+   "moves": [
+    {
+     "name": "Brandon Bussi",
+     "pos": "G",
+     "nhl": "CAR",
+     "type": "add",
+     "to": "Real Hood Necas",
+     "to_key": "t.5",
+     "from": "",
+     "source": "freeagents"
+    },
+    {
+     "name": "Ville Husso",
+     "pos": "G",
+     "nhl": "ANA",
+     "type": "drop",
+     "to": "",
+     "to_key": "",
+     "from": "Real Hood Necas",
+     "source": "team"
+    }
+   ]
+  }
+ ]
+}
