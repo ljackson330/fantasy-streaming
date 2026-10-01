@@ -1,0 +1,57 @@
+name: Update dashboard
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 7:00 am Mountain (daylight time)
+    - cron: "0 22 * * *"   # 4:00 pm Mountain, before most puck drops
+  workflow_dispatch: {}
+  push:
+    paths: ["projections/**", "src/**", "config.json"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-dashboard
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Build from Yahoo + NHL data
+        run: python src/build.py
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+          YAHOO_REDIRECT_URI: ${{ vars.YAHOO_REDIRECT_URI || 'oob' }}
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json site/index.html
+          git diff --cached --quiet || (git commit -m "Update dashboard $(date -u +%Y-%m-%dT%H:%MZ)" && git push)
+      - name: Package site for GitHub Pages
+        if: vars.PUBLISH_PAGES == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    if: vars.PUBLISH_PAGES == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
