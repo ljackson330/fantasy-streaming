@@ -47,8 +47,18 @@ def authorize(scope):
 
 
 def fantasy_check(access_token):
-    r = requests.get(API + "game/nhl?format=json", headers={"Authorization": f"Bearer {access_token}"}, timeout=30)
-    return r.status_code, r.text[:300]
+    """Try several endpoints: some apps are blocked from game-wide lookups but can read the user's own leagues."""
+    h = {"Authorization": f"Bearer {access_token}"}
+    ok, report = False, []
+    for path in ["users;use_login=1/games;game_codes=nhl/leagues?format=json", "game/nhl?format=json"]:
+        r = requests.get(API + path, headers=h, timeout=30)
+        report.append(f"  {path.split('?')[0]}: {r.status_code}")
+        if r.status_code == 200 and path.startswith("users"):
+            ok = True
+            keys = sorted(set(__import__('re').findall(r'"league_key":"([^"]+)"', r.text)))
+            report.append(f"    leagues found: {', '.join(keys) or 'none'}")
+    print("\nEndpoint check:\n" + "\n".join(report))
+    return (200, "") if ok else (403, "\n".join(report))
 
 
 # First try with the Fantasy read scope stated explicitly; fall back to the app's default scopes.

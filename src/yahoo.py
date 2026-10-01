@@ -122,8 +122,19 @@ def parse_player(p):
 def fetch_league(y, league_id, today=None):
     """Everything the dashboard needs from Yahoo, as plain dicts."""
     today = today or datetime.now().date().isoformat()
-    game_key = _t(y.get("game/nhl"), "game/game_key")
-    lk = f"{game_key}.l.{league_id}"
+    # Find the league through the signed-in user's own leagues; some apps can't call the game-wide endpoint.
+    lk = None
+    try:
+        root = y.get("users;use_login=1/games;game_codes=nhl/leagues")
+        keys = [_t(lg, "league_key") for lg in root.iter("league")]
+        keys = [k for k in keys if k.endswith(f".l.{league_id}") and k.split(".")[0].isdigit()]
+        if keys:
+            lk = max(keys, key=lambda k: int(k.split(".")[0]))  # newest season
+    except RuntimeError as e:
+        print(f"User leagues lookup failed, falling back to game/nhl: {e}")
+    if not lk:
+        game_key = _t(y.get("game/nhl"), "game/game_key")
+        lk = f"{game_key}.l.{league_id}"
 
     settings = y.get(f"league/{lk}/settings").find("league")
     slots = {}
