@@ -39,6 +39,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/latest.json site/index.html
           git diff --cached --quiet || (git commit -m "Update dashboard $(date -u +%Y-%m-%dT%H:%MZ)" && git push)
+      - name: Explain Pages status
+        if: vars.PUBLISH_PAGES != 'true'
+        run: |
+          echo "::notice title=GitHub Pages deploy skipped::The repository variable PUBLISH_PAGES is '${{ vars.PUBLISH_PAGES }}' (empty means not set). To publish: Settings > Secrets and variables > Actions > Variables tab (not Secrets) > New repository variable, name PUBLISH_PAGES, value true. Also set Settings > Pages > Source to 'GitHub Actions'."
       - name: Package site for GitHub Pages
         if: vars.PUBLISH_PAGES == 'true'
         uses: actions/upload-pages-artifact@v3
