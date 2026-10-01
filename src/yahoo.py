@@ -31,26 +31,56 @@ def _t(el, path, default=""):
     return found.text.strip() if found is not None and found.text else default
 
 
+def _clean(v):
+    """Secrets pasted into GitHub often carry whitespace, newlines or quotes."""
+    return (v or "").strip().strip('"').strip("'").strip()
+
+
+def _describe(v):
+    return f"{len(v)} chars, starts {v[:4]!r}" if v else "EMPTY"
+
+
 class Yahoo:
     def __init__(self, client_id=None, client_secret=None, refresh_token=None, redirect_uri=None):
-        self.client_id = client_id or os.environ["YAHOO_CLIENT_ID"]
-        self.client_secret = client_secret or os.environ["YAHOO_CLIENT_SECRET"]
-        self.refresh_token = refresh_token or os.environ["YAHOO_REFRESH_TOKEN"]
-        self.redirect_uri = redirect_uri or os.environ.get("YAHOO_REDIRECT_URI", "oob")
+        self.client_id = _clean(client_id or os.environ.get("YAHOO_CLIENT_ID"))
+        self.client_secret = _clean(client_secret or os.environ.get("YAHOO_CLIENT_SECRET"))
+        self.refresh_token = _clean(refresh_token or os.environ.get("YAHOO_REFRESH_TOKEN"))
+        self.redirect_uri = _clean(redirect_uri or os.environ.get("YAHOO_REDIRECT_URI")) or "oob"
+        missing = [n for n, v in [("YAHOO_CLIENT_ID", self.client_id), ("YAHOO_CLIENT_SECRET", self.client_secret),
+                                  ("YAHOO_REFRESH_TOKEN", self.refresh_token)] if not v]
+        if missing:
+            raise RuntimeError(f"Missing GitHub secrets: {', '.join(missing)}")
         self.session = requests.Session()
         self._refresh()
 
     def _refresh(self):
-        r = requests.post(
-            TOKEN_URL,
-            auth=(self.client_id, self.client_secret),
-            data={"grant_type": "refresh_token", "refresh_token": self.refresh_token, "redirect_uri": self.redirect_uri},
-            timeout=30,
-        )
-        if r.status_code != 200:
-            raise RuntimeError(f"Yahoo token refresh failed ({r.status_code}): {r.text[:300]}")
-        tok = r.json()
-        self.session.headers["Authorization"] = f"Bearer {tok['access_token']}"
+        # Yahoo can reject a refresh whose redirect_uri differs from the one used at sign-in,
+        # so try the configured one first, then the common alternatives.
+        tries, errors = [], []
+        for ru in [self.redirect_uri, "oob", "https://localhost:8080", "https://localhost:8080/", None]:
+            if ru not in tries:
+                tries.append(ru)
+        for ru in tries:
+            data = {"grant_type": "refresh_token", "refresh_token": self.refresh_token}
+            if ru:
+                data["redirect_uri"] = ru
+            r = requests.post(TOKEN_URL, auth=(self.client_id, self.client_secret), data=data, timeout=30)
+            if r.status_code == 200:
+                tok = r.json()
+                self.session.headers["Authorization"] = f"Bearer {tok['access_token']}"
+                if ru != self.redirect_uri:
+                    print(f"Note: token refresh worked with redirect_uri={ru!r}; set the YAHOO_REDIRECT_URI variable to that.")
+                return
+            errors.append(f"redirect_uri={ru!r} -> {r.status_code} {r.text[:160]}")
+            if "invalid_client" in r.text:
+                break  # wrong client ID/secret; other redirect URIs won't help
+        raise RuntimeError(
+            "Yahoo token refresh failed.\n  " + "\n  ".join(errors) +
+            f"\nSecrets as received: client_id {_describe(self.client_id)}, client_secret {_describe(self.client_secret)}, "
+            f"refresh_token {_describe(self.refresh_token)}.\n"
+            "invalid_client = client ID/secret wrong. invalid_grant on every try = the refresh token is wrong or revoked: "
+            "re-run scripts/yahoo_auth.py with this same Yahoo app and paste the new refresh token "
+            "(Yahoo refresh tokens are long, about 40-60 characters).")
 
     def get(self, path, retries=3):
         for attempt in range(retries):
