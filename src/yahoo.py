@@ -92,7 +92,11 @@ class Yahoo:
                 time.sleep(3 * (attempt + 1))
                 continue
             if r.status_code != 200:
-                raise RuntimeError(f"Yahoo GET {path} failed ({r.status_code}): {r.text[:300]}")
+                hint = ""
+                if r.status_code == 403 and "not authorized" in r.text:
+                    hint = ("\nThe token works but lacks Fantasy access. Re-run scripts/yahoo_auth.py (it tests Fantasy "
+                            "access before printing a token) and replace YAHOO_REFRESH_TOKEN.")
+                raise RuntimeError(f"Yahoo GET {path} failed ({r.status_code}): {r.text[:300]}{hint}")
             return _strip_ns(ET.fromstring(r.content))
         raise RuntimeError(f"Yahoo GET {path} kept failing")
 
